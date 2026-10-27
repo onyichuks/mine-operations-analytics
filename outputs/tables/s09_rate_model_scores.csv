@@ -1,0 +1,7 @@
+model,deviance,deviance_skill_pct,top20_injury_share_pct,top20_hours_share_pct,top20_rate_ratio
+Industry rate,1.44413,0.0,,,1.0
+"Own recent rate, shrunk",1.298598,10.077519,25.188917,15.238488,1.65298
+"Poisson regression: size, mix and injury history",1.233465,14.587709,12.594458,6.448101,1.953204
+Poisson regression: all inputs,1.229452,14.865566,11.586902,5.562883,2.082895
+"Boosting: size, mix and injury history",1.25267,13.257818,25.524769,14.290681,1.786113
+Boosting: all inputs,1.252784,13.249908,21.074727,11.567913,1.821826

@@ -1,0 +1,8 @@
+test,r2,mae
+"Random split of 20-second rows, all columns (iron in concentrate included)",0.931,0.2123
+"Random split of 20-second rows, iron in concentrate removed",0.7228,0.4354
+"Random split of measured hours, process sensors only",0.2079,0.6922
+"Next month, measured hours, process sensors only",-0.0265,0.7489
+"Next month, latest laboratory result (persistence)",-0.0043,0.6349
+"Next month, soft sensor (process sensors plus laboratory history)",0.1716,0.6009
+"Next month, soft sensor, every hour with a value treated as measured (for training, history and scoring)",0.3429,0.5533

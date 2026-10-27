@@ -1,0 +1,12 @@
+classification,nfdl,median_days,share_pct,share_open_pct,share_underground_pct,share_mill_pct
+Handling of materials,427,18.0,35.12,28.44,39.75,42.7
+Slip or fall of person,361,23.0,29.69,34.7,22.59,26.59
+Powered haulage,107,14.0,8.8,11.63,9.62,1.87
+Machinery,101,15.0,8.31,9.66,7.53,7.49
+Handtools (nonpowered),97,15.0,7.98,7.51,7.11,11.24
+Other,46,10.0,3.78,4.11,2.09,2.62
+Stepping or kneeling on object,28,14.0,2.3,2.68,1.26,2.62
+Exploding vessels under pressure,14,18.5,1.15,0.0,2.09,2.62
+Striking or bumping,8,15.0,0.66,0.54,1.26,0.37
+Fall of roof or back,8,121.0,0.66,0.0,3.35,0.0
+All other classifications,19,,1.56,0.72,3.35,1.87

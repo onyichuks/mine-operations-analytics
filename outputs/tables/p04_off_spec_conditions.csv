@@ -1,0 +1,22 @@
+tag,label,off_spec_mean,on_spec_mean,std_difference
+level_4,Column 4 level,395.5162,423.7349,-0.4209
+level_5,Column 5 level,398.4567,426.0003,-0.4205
+level_7,Column 7 level,399.2257,422.4207,-0.3584
+amina_flow,Amine flow,515.1721,489.8365,0.3416
+air_flow_1,Column 1 air flow,275.3746,284.2248,-0.3395
+air_flow_3,Column 3 air flow,276.3837,284.8535,-0.3293
+level_6,Column 6 level,410.0375,430.7398,-0.3055
+air_flow_2,Column 2 air flow,274.6121,281.1013,-0.2412
+pulp_ph,Ore pulp pH,9.7153,9.7989,-0.2291
+pulp_density,Ore pulp density,1.6974,1.6863,0.2008
+air_flow_5,Column 5 air flow,298.8944,299.2105,-0.1306
+iron_feed,Iron in feed (%),56.0123,56.4857,-0.0903
+starch_flow,Starch flow,2922.7533,3000.217,-0.0877
+silica_feed,Silica in feed (%),15.0298,14.4937,0.0779
+air_flow_7,Column 7 air flow,289.6844,291.5442,-0.0742
+level_3,Column 3 level,507.5023,516.0759,-0.0705
+level_1,Column 1 level,513.371,507.9396,0.0496
+air_flow_6,Column 6 air flow,291.9162,292.9887,-0.0392
+pulp_flow,Ore pulp flow,397.9655,397.7387,0.0279
+level_2,Column 2 level,511.2551,513.3014,-0.0197
+air_flow_4,Column 4 air flow,299.9362,299.9152,0.0112

@@ -1,0 +1,8 @@
+subunit_code,hours_m,all_injury,nfdl,fatal,all_injury_rate,nfdl_rate,subunit
+03,112.9827,771,559.0,4.0,1.3648,0.9895,Open pit
+30,67.0689,390,267.0,0.0,1.163,0.7962,Mill or preparation plant
+01,58.9285,360,239.0,5.0,1.2218,0.8112,Underground
+99,32.5255,25,13.0,0.0,0.1537,0.0799,Office
+02,16.2793,135,105.0,0.0,1.6585,1.29,Surface at underground mine
+12,5.0599,53,33.0,0.0,2.0949,1.3044,Other mining
+06,0.0306,1,0.0,0.0,6.5464,0.0,Dredge

@@ -1,0 +1,426 @@
+{
+  "data": {
+    "rows": 737453,
+    "period": [
+      "2017-03-10 01:00:00",
+      "2017-09-09 23:00:00"
+    ],
+    "hours_in_period": 4415,
+    "hours_with_data": 4097,
+    "hours_complete": 4095,
+    "incomplete_hours": {
+      "2017-03-10 01:00:00": 174,
+      "2017-04-10 00:00:00": 179
+    },
+    "gaps": [
+      {
+        "start": "2017-03-16 06:00:00",
+        "end": "2017-03-29 11:00:00",
+        "hours": 318
+      }
+    ],
+    "duplicate_rows": 1171,
+    "lab_classes": {
+      "measured": 3323,
+      "repeat": 446,
+      "interpolated": 18,
+      "varies within hour": 310,
+      "missing": 318
+    },
+    "measured_share_pct": 81.1,
+    "feed_assay_update_hours": {
+      "iron_feed": 9.0,
+      "silica_feed": 9.0
+    },
+    "iron_silica_correlation": -0.801,
+    "range_violations": {
+      "starch_flow": 0,
+      "amina_flow": 0,
+      "pulp_flow": 0,
+      "pulp_ph": 0,
+      "pulp_density": 0,
+      "air_flow_1": 0,
+      "air_flow_2": 0,
+      "air_flow_3": 0,
+      "air_flow_4": 0,
+      "air_flow_5": 0,
+      "air_flow_6": 0,
+      "air_flow_7": 0,
+      "level_1": 0,
+      "level_2": 0,
+      "level_3": 0,
+      "level_4": 0,
+      "level_5": 0,
+      "level_6": 0,
+      "level_7": 0,
+      "iron_feed": 0,
+      "silica_feed": 0,
+      "iron_conc": 0,
+      "silica_conc": 0
+    },
+    "flatlines": [
+      {
+        "tag": "starch_flow",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.2
+      },
+      {
+        "tag": "amina_flow",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.2
+      },
+      {
+        "tag": "pulp_flow",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.17
+      },
+      {
+        "tag": "pulp_ph",
+        "longest_run_hours": 7.7,
+        "pct_rows_in_runs_over_1h": 0.57
+      },
+      {
+        "tag": "pulp_density",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.53
+      },
+      {
+        "tag": "air_flow_1",
+        "longest_run_hours": 7.7,
+        "pct_rows_in_runs_over_1h": 0.48
+      },
+      {
+        "tag": "air_flow_2",
+        "longest_run_hours": 7.7,
+        "pct_rows_in_runs_over_1h": 0.43
+      },
+      {
+        "tag": "air_flow_3",
+        "longest_run_hours": 7.7,
+        "pct_rows_in_runs_over_1h": 0.43
+      },
+      {
+        "tag": "air_flow_4",
+        "longest_run_hours": 460.1,
+        "pct_rows_in_runs_over_1h": 11.44
+      },
+      {
+        "tag": "air_flow_5",
+        "longest_run_hours": 460.2,
+        "pct_rows_in_runs_over_1h": 11.44
+      },
+      {
+        "tag": "air_flow_6",
+        "longest_run_hours": 7.7,
+        "pct_rows_in_runs_over_1h": 0.49
+      },
+      {
+        "tag": "air_flow_7",
+        "longest_run_hours": 7.7,
+        "pct_rows_in_runs_over_1h": 0.49
+      },
+      {
+        "tag": "level_1",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.37
+      },
+      {
+        "tag": "level_2",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.2
+      },
+      {
+        "tag": "level_3",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.2
+      },
+      {
+        "tag": "level_4",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.23
+      },
+      {
+        "tag": "level_5",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.26
+      },
+      {
+        "tag": "level_6",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.2
+      },
+      {
+        "tag": "level_7",
+        "longest_run_hours": 3.7,
+        "pct_rows_in_runs_over_1h": 0.2
+      }
+    ],
+    "stuck_periods": [
+      {
+        "tag": "air_flow_4",
+        "start": "2017-03-10 01:00:00",
+        "end": "2017-04-11 11:00:00",
+        "hours_of_data": 460.1,
+        "value": 295.096
+      },
+      {
+        "tag": "air_flow_5",
+        "start": "2017-03-10 01:00:00",
+        "end": "2017-04-11 11:00:00",
+        "hours_of_data": 460.2,
+        "value": 306.4
+      }
+    ],
+    "frozen_hours": [
+      "2017-06-28 16:00:00",
+      "2017-07-11 06:00:00",
+      "2017-07-11 07:00:00",
+      "2017-07-11 08:00:00",
+      "2017-07-11 09:00:00",
+      "2017-07-11 10:00:00",
+      "2017-07-13 14:00:00",
+      "2017-07-13 15:00:00"
+    ]
+  },
+  "kpis": {
+    "off_spec_limit_pct": 3.0,
+    "measured_hours": 3323,
+    "silica_mean": 2.1893334336442973,
+    "silica_median": 1.87,
+    "silica_p75": 2.67,
+    "silica_p90": 3.8099999999999996,
+    "silica_max": 5.53,
+    "off_spec_pct": 19.38007824255191,
+    "iron_conc_mean": 65.21190508904029,
+    "iron_feed_mean": 56.29473029045643,
+    "silica_feed_mean": 14.651732975347816
+  },
+  "soft_sensor": {
+    "lab_turnaround_hours": 2,
+    "test_period": [
+      "2017-06-01 00:00:00",
+      "2017-09-09 23:00:00"
+    ],
+    "test_hours": 1996,
+    "params": {
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 80,
+      "l2_regularization": 1.0,
+      "max_iter": 300
+    },
+    "mae": {
+      "persistence": 0.6349048096192385,
+      "train_mean": 0.8016733994316696,
+      "ridge_process": 0.7781704941788564,
+      "gb_process": 0.7488500241961269,
+      "gb_lab_only": 0.6095235295659016,
+      "gb_lab": 0.6184730446391615,
+      "shrunk_lab_only": 0.6022630106548725,
+      "shrunk": 0.600908581784587
+    },
+    "r2": {
+      "persistence": -0.004327673374277197,
+      "train_mean": -0.0745659876629039,
+      "ridge_process": -0.10760458376532345,
+      "gb_process": -0.02649109773404912,
+      "gb_lab_only": 0.24967372580143699,
+      "gb_lab": 0.23312030480788237,
+      "shrunk_lab_only": 0.16340273113628812,
+      "shrunk": 0.17162347071327055
+    },
+    "gain_vs_persistence_pct": 5.354539345045994,
+    "coverage_80": 0.811623246492986,
+    "interval_width": 1.9940960602523903,
+    "weights_by_month": {
+      "2017-06": 0.29999999999999993,
+      "2017-07": 0.39999999999999997,
+      "2017-08": 0.7000000000000002,
+      "2017-09": 0.5
+    },
+    "by_month": {
+      "2017-06": {
+        "persistence_mae": 0.5509828393135725,
+        "shrunk_mae": 0.5352714097323308,
+        "coverage_80": 0.8736349453978159
+      },
+      "2017-07": {
+        "persistence_mae": 0.6970454545454545,
+        "shrunk_mae": 0.6507766850762327,
+        "coverage_80": 0.7386363636363636
+      },
+      "2017-08": {
+        "persistence_mae": 0.6260676156583629,
+        "shrunk_mae": 0.5902038494876726,
+        "coverage_80": 0.8451957295373665
+      },
+      "2017-09": {
+        "persistence_mae": 0.7506214689265538,
+        "shrunk_mae": 0.6990483287264426,
+        "coverage_80": 0.7344632768361582
+      }
+    },
+    "warning": {
+      "off_spec_rate_pct": 14.679358717434871,
+      "hours": 1996,
+      "model": {
+        "auc": 0.7400070944869424,
+        "average_precision": 0.36192956125885867,
+        "catch_rate_pct": 46.41638225255973,
+        "false_alarm_pct": 64.94845360824742,
+        "warnings": 388,
+        "brier": 0.1107499391307885,
+        "brier_skill_pct": 17.2508457660685
+      },
+      "persistence": {
+        "auc": 0.7600259730369413,
+        "average_precision": 0.41247441532936496,
+        "catch_rate_pct": 57.67918088737201,
+        "false_alarm_pct": 65.65040650406505,
+        "warnings": 492
+      },
+      "process_only": {
+        "auc": 0.6245152601612493,
+        "average_precision": 0.2000392718846181
+      }
+    },
+    "importance": {
+      "Laboratory history": 0.08349131004972525,
+      "Column air flows": 0.0018285159781132542,
+      "Ore pulp (flow, pH, density)": 0.000920666343691412,
+      "Column levels": 0.0002900791237840261,
+      "Feed assays": -0.0002268464652646518,
+      "Reagents (starch, amine)": -0.0005267750250301517
+    },
+    "turnaround_sweep": [
+      {
+        "delay_hours": 1,
+        "hours": 1999,
+        "persistence_mae": 0.5240420210105052,
+        "gb_lab_mae": 0.5293131439207767,
+        "gb_lab_only_mae": 0.5287544680431162,
+        "shrunk_lab_only_mae": 0.5043813501107082,
+        "shrunk_mae": 0.5056771596327218,
+        "train_mean_mae": 0.8006180574061248,
+        "gain_vs_persistence_pct": 3.504463505115618,
+        "sensors_add_pct": -0.2569106731898696,
+        "coverage_80": 0.8129064532266133
+      },
+      {
+        "delay_hours": 2,
+        "hours": 1996,
+        "persistence_mae": 0.6349048096192385,
+        "gb_lab_mae": 0.6184730446391615,
+        "gb_lab_only_mae": 0.6095235295659016,
+        "shrunk_lab_only_mae": 0.6022630106548725,
+        "shrunk_mae": 0.600908581784587,
+        "train_mean_mae": 0.8016733994316696,
+        "gain_vs_persistence_pct": 5.354539345045994,
+        "sensors_add_pct": 0.22488993119681444,
+        "coverage_80": 0.811623246492986
+      },
+      {
+        "delay_hours": 3,
+        "hours": 1993,
+        "persistence_mae": 0.7085398896136477,
+        "gb_lab_mae": 0.6697173137970389,
+        "gb_lab_only_mae": 0.6641807334938317,
+        "shrunk_lab_only_mae": 0.6570052789687757,
+        "shrunk_mae": 0.6494060990965038,
+        "train_mean_mae": 0.8026334495776719,
+        "gain_vs_persistence_pct": 8.345866109159827,
+        "sensors_add_pct": 1.156639088836453,
+        "coverage_80": 0.8148519819367788
+      },
+      {
+        "delay_hours": 4,
+        "hours": 1992,
+        "persistence_mae": 0.7863955823293173,
+        "gb_lab_mae": 0.7092533413000668,
+        "gb_lab_only_mae": 0.7103217080205053,
+        "shrunk_lab_only_mae": 0.7052051615145221,
+        "shrunk_mae": 0.6977679078067125,
+        "train_mean_mae": 0.8042386687586508,
+        "gain_vs_persistence_pct": 11.270113479031519,
+        "sensors_add_pct": 1.0546226989940122,
+        "coverage_80": 0.8032128514056225
+      },
+      {
+        "delay_hours": 6,
+        "hours": 1990,
+        "persistence_mae": 0.8702311557788944,
+        "gb_lab_mae": 0.7460193994791525,
+        "gb_lab_only_mae": 0.7564401038260193,
+        "shrunk_lab_only_mae": 0.7472460511520785,
+        "shrunk_mae": 0.7268739262202731,
+        "train_mean_mae": 0.8055739637217932,
+        "gain_vs_persistence_pct": 16.473465539200372,
+        "sensors_add_pct": 2.7262940901991217,
+        "coverage_80": 0.8150753768844221
+      },
+      {
+        "delay_hours": 8,
+        "hours": 1988,
+        "persistence_mae": 0.9247032193158954,
+        "gb_lab_mae": 0.772394236418167,
+        "gb_lab_only_mae": 0.782559394081182,
+        "shrunk_lab_only_mae": 0.7722063002486365,
+        "shrunk_mae": 0.7554204426730655,
+        "train_mean_mae": 0.8071454152003009,
+        "gain_vs_persistence_pct": 18.306714317277596,
+        "sensors_add_pct": 2.173752994525713,
+        "coverage_80": 0.8108651911468813
+      },
+      {
+        "delay_hours": 12,
+        "hours": 1986,
+        "persistence_mae": 0.9570090634441087,
+        "gb_lab_mae": 0.7657385492416312,
+        "gb_lab_only_mae": 0.8031225567564483,
+        "shrunk_lab_only_mae": 0.7920834682407636,
+        "shrunk_mae": 0.7690396743197958,
+        "train_mean_mae": 0.8025801042549741,
+        "gain_vs_persistence_pct": 19.64133844750058,
+        "sensors_add_pct": 2.9092633346014196,
+        "coverage_80": 0.8081570996978852
+      }
+    ],
+    "leakage": [
+      {
+        "test": "Random split of 20-second rows, all columns (iron in concentrate included)",
+        "r2": 0.9310316570047926,
+        "mae": 0.21234310202833304
+      },
+      {
+        "test": "Random split of 20-second rows, iron in concentrate removed",
+        "r2": 0.722820757853387,
+        "mae": 0.4354041309283414
+      },
+      {
+        "test": "Random split of measured hours, process sensors only",
+        "r2": 0.20793653151878044,
+        "mae": 0.692191636263555
+      },
+      {
+        "test": "Next month, measured hours, process sensors only",
+        "r2": -0.02649109773404912,
+        "mae": 0.7488500241961269
+      },
+      {
+        "test": "Next month, latest laboratory result (persistence)",
+        "r2": -0.004327673374277197,
+        "mae": 0.6349048096192385
+      },
+      {
+        "test": "Next month, soft sensor (process sensors plus laboratory history)",
+        "r2": 0.17162347071327055,
+        "mae": 0.600908581784587
+      },
+      {
+        "test": "Next month, soft sensor, every hour with a value treated as measured (for training, history and scoring)",
+        "r2": 0.34292838216410104,
+        "mae": 0.553251493555876
+      }
+    ]
+  }
+}

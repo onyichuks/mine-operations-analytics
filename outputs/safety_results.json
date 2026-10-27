@@ -1,0 +1,734 @@
+{
+  "data": {
+    "gold_mines": 3024,
+    "mines_by_status": {
+      "Abandoned": 2848,
+      "Active": 70,
+      "Intermittent": 66,
+      "NonProducing": 21,
+      "Temporarily Idled": 18,
+      "New Mine": 1
+    },
+    "mines_by_type": {
+      "Surface": 1645,
+      "Underground": 1128,
+      "Facility": 250
+    },
+    "mines_by_state_top": {
+      "NV": 562,
+      "CA": 436,
+      "AK": 379,
+      "MT": 359,
+      "CO": 312,
+      "AZ": 266,
+      "ID": 255,
+      "OR": 153
+    },
+    "records": {
+      "employment_rows": 8527,
+      "accidents": 9836,
+      "inspections": 15204,
+      "violations": 56331
+    },
+    "years": [
+      2000,
+      2026
+    ],
+    "last_full_year": 2025,
+    "partial_year_hours_m": 12.880171,
+    "duplicate_accident_rows": 0,
+    "duplicate_violation_numbers": 0,
+    "accidents_degree_missing": 33,
+    "operator_injuries_without_hours_that_year": 1,
+    "operator_injuries_checked": 6361,
+    "nfdl_mine_experience_missing_pct": 2.492154328964371,
+    "inspections_without_hours": 138,
+    "contractor_records": 2337
+  },
+  "definitions": {
+    "base_hours": 200000,
+    "all_injury_degree_codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "nfdl_degree_codes": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "rates": "mine operator employees only"
+  },
+  "trend": {
+    "all_injury_rate_2000": 4.078827067211314,
+    "all_injury_rate_2025": 1.313033830316638,
+    "nfdl_rate_2000": 2.575597373426863,
+    "nfdl_rate_2025": 0.9920700051281265,
+    "nfdl_rate_min": 0.6979402499277945,
+    "nfdl_rate_min_year": 2018,
+    "operator_hours_m_last": 27.41742,
+    "mines_reporting_last": 146,
+    "fatalities_2000_to_last": 48,
+    "fatalities_last_10_years": 10,
+    "severity": {
+      "2006-2015": {
+        "cases": 1715,
+        "median_days": 15.0,
+        "mean_days": 38.630903790087466,
+        "share_over_30_days_pct": 33.994169096209916
+      },
+      "2016-2020": {
+        "cases": 607,
+        "median_days": 15.0,
+        "mean_days": 45.3838550247117,
+        "share_over_30_days_pct": 31.630971993410213
+      },
+      "2021-2025": {
+        "cases": 609,
+        "median_days": 24.0,
+        "mean_days": 56.50738916256157,
+        "share_over_30_days_pct": 45.97701149425287
+      }
+    },
+    "contractor_share_of_injuries_recent_pct": 24.334932402965546
+  },
+  "subunits_recent": {
+    "03": {
+      "hours_m": 112.982686,
+      "all_injury": 771,
+      "nfdl": 559.0,
+      "fatal": 4.0,
+      "all_injury_rate": 1.3648108879266687,
+      "nfdl_rate": 0.9895321483151853,
+      "subunit": "Open pit"
+    },
+    "30": {
+      "hours_m": 67.068903,
+      "all_injury": 390,
+      "nfdl": 267.0,
+      "fatal": 0.0,
+      "all_injury_rate": 1.1629830891970903,
+      "nfdl_rate": 0.796196114911854,
+      "subunit": "Mill or preparation plant"
+    },
+    "01": {
+      "hours_m": 58.928465,
+      "all_injury": 360,
+      "nfdl": 239.0,
+      "fatal": 5.0,
+      "all_injury_rate": 1.221820388499853,
+      "nfdl_rate": 0.811152980142958,
+      "subunit": "Underground"
+    },
+    "99": {
+      "hours_m": 32.525479,
+      "all_injury": 25,
+      "nfdl": 13.0,
+      "fatal": 0.0,
+      "all_injury_rate": 0.15372563767623532,
+      "nfdl_rate": 0.07993733159164237,
+      "subunit": "Office"
+    },
+    "02": {
+      "hours_m": 16.279306,
+      "all_injury": 135,
+      "nfdl": 105.0,
+      "fatal": 0.0,
+      "all_injury_rate": 1.6585473606798717,
+      "nfdl_rate": 1.2899812805287894,
+      "subunit": "Surface at underground mine"
+    },
+    "12": {
+      "hours_m": 5.059931,
+      "all_injury": 53,
+      "nfdl": 33.0,
+      "fatal": 0.0,
+      "all_injury_rate": 2.0948902267639617,
+      "nfdl_rate": 1.3043656128907686,
+      "subunit": "Other mining"
+    },
+    "06": {
+      "hours_m": 0.030551,
+      "all_injury": 1,
+      "nfdl": 0.0,
+      "fatal": 0.0,
+      "all_injury_rate": 6.546430558737848,
+      "nfdl_rate": 0.0,
+      "subunit": "Dredge"
+    }
+  },
+  "classifications_recent": {
+    "Handling of materials": {
+      "nfdl": 427,
+      "median_days": 18.0,
+      "share_pct": 35.11513157894737,
+      "share_open_pct": 28.443649373881932,
+      "share_underground_pct": 39.7489539748954,
+      "share_mill_pct": 42.69662921348315
+    },
+    "Slip or fall of person": {
+      "nfdl": 361,
+      "median_days": 23.0,
+      "share_pct": 29.6875,
+      "share_open_pct": 34.704830053667266,
+      "share_underground_pct": 22.594142259414227,
+      "share_mill_pct": 26.591760299625467
+    },
+    "Powered haulage": {
+      "nfdl": 107,
+      "median_days": 14.0,
+      "share_pct": 8.799342105263158,
+      "share_open_pct": 11.627906976744185,
+      "share_underground_pct": 9.623430962343097,
+      "share_mill_pct": 1.8726591760299625
+    },
+    "Machinery": {
+      "nfdl": 101,
+      "median_days": 15.0,
+      "share_pct": 8.305921052631579,
+      "share_open_pct": 9.66010733452594,
+      "share_underground_pct": 7.531380753138075,
+      "share_mill_pct": 7.49063670411985
+    },
+    "Handtools (nonpowered)": {
+      "nfdl": 97,
+      "median_days": 15.0,
+      "share_pct": 7.9769736842105265,
+      "share_open_pct": 7.5134168157423975,
+      "share_underground_pct": 7.112970711297071,
+      "share_mill_pct": 11.235955056179776
+    },
+    "Other": {
+      "nfdl": 46,
+      "median_days": 10.0,
+      "share_pct": 3.7828947368421053,
+      "share_open_pct": 4.114490161001789,
+      "share_underground_pct": 2.092050209205021,
+      "share_mill_pct": 2.6217228464419478
+    },
+    "Stepping or kneeling on object": {
+      "nfdl": 28,
+      "median_days": 14.0,
+      "share_pct": 2.3026315789473686,
+      "share_open_pct": 2.6833631484794274,
+      "share_underground_pct": 1.2552301255230125,
+      "share_mill_pct": 2.6217228464419478
+    },
+    "Exploding vessels under pressure": {
+      "nfdl": 14,
+      "median_days": 18.5,
+      "share_pct": 1.1513157894736843,
+      "share_open_pct": 0.0,
+      "share_underground_pct": 2.092050209205021,
+      "share_mill_pct": 2.6217228464419478
+    },
+    "Striking or bumping": {
+      "nfdl": 8,
+      "median_days": 15.0,
+      "share_pct": 0.6578947368421053,
+      "share_open_pct": 0.5366726296958855,
+      "share_underground_pct": 1.2552301255230125,
+      "share_mill_pct": 0.37453183520599254
+    },
+    "Fall of roof or back": {
+      "nfdl": 8,
+      "median_days": 121.0,
+      "share_pct": 0.6578947368421053,
+      "share_open_pct": 0.0,
+      "share_underground_pct": 3.3472803347280333,
+      "share_mill_pct": 0.0
+    },
+    "All other classifications": {
+      "nfdl": 19,
+      "median_days": null,
+      "share_pct": 1.5625,
+      "share_open_pct": 0.7155635062611807,
+      "share_underground_pct": 3.3472803347280333,
+      "share_mill_pct": 1.8726591760299627
+    }
+  },
+  "experience_recent": {
+    "cases_with_mine_experience": 1496,
+    "under_1_year_at_mine_pct": 33.288770053475936,
+    "under_3_months_at_mine_pct": 15.641711229946523,
+    "under_1_year_in_mining_pct": 19.826435246995995,
+    "median_years_at_mine": 2.0,
+    "distribution": {
+      "under 3 months": 234,
+      "3 to 12 months": 264,
+      "1 to 3 years": 397,
+      "3 to 5 years": 194,
+      "5 to 10 years": 237,
+      "10 years or more": 170
+    },
+    "contractor_under_1_year_pct": 67.85714285714286,
+    "operator_under_1_year_pct": 25.32894736842105
+  },
+  "fatalities": {
+    "Powered haulage": {
+      "fatalities": 21,
+      "contractor": 2
+    },
+    "Machinery": {
+      "fatalities": 7,
+      "contractor": 3
+    },
+    "Other": {
+      "fatalities": 4,
+      "contractor": 1
+    },
+    "Fall of roof or back": {
+      "fatalities": 4,
+      "contractor": 0
+    },
+    "Falling/sliding/rolling materials": {
+      "fatalities": 4,
+      "contractor": 0
+    },
+    "Slip or fall of person": {
+      "fatalities": 3,
+      "contractor": 0
+    },
+    "Hoisting": {
+      "fatalities": 2,
+      "contractor": 1
+    },
+    "Explosives and breaking agents": {
+      "fatalities": 2,
+      "contractor": 0
+    },
+    "Electrical": {
+      "fatalities": 1,
+      "contractor": 0
+    }
+  },
+  "patterns_recent": {
+    "accident_type": {
+      "Over-exertion nec": 17.43421052631579,
+      "Over-exertion in lifting objects": 9.703947368421053,
+      "Fall to the walkway or working surface": 9.62171052631579,
+      "Caught in, under or between a moving and a stationary object": 9.12828947368421,
+      "Struck against a moving object": 8.305921052631579,
+      "Struck by falling object": 6.4144736842105265,
+      "Over-exertion in pulling or pushing objects": 5.921052631578948,
+      "Struck by... nec": 5.6743421052631575
+    },
+    "body_part": {
+      "Back (muscles/spine/s-cord/tailbone)": 15.37828947368421,
+      "Finger(s)/thumb": 14.802631578947368,
+      "Knee/patella": 11.924342105263158,
+      "Shoulders (collarbone/clavicle/scapula)": 8.717105263157896,
+      "Ankle": 8.552631578947368,
+      "Multiple parts (more than one major)": 4.769736842105263,
+      "Hand (not wrist or fingers)": 3.3717105263157894,
+      "Hips (pelvis/organs/kidneys/buttocks)": 2.6315789473684212
+    },
+    "nature": {
+      "Sprain,strain rupt disc": 43.83223684210526,
+      "Fracture,chip": 20.476973684210527,
+      "Cut,lacer,punct-opn wound": 10.444078947368421,
+      "Unclassified,not determed": 6.661184210526316,
+      "Contusn,bruise,intac skin": 5.427631578947368,
+      "Hernia;rupture": 2.0559210526315788,
+      "Burn,chemicl-fume,compoun": 1.7269736842105263,
+      "Amputation or enucleation": 1.644736842105263
+    },
+    "occupation": {
+      "Maintenance man, mechanic,  repair/serviceman, boilermaker, fueler, tire tech, field service tech": 25.32894736842105,
+      "Bulldozer operator, universal operator, heavy equipment operator, operating engineer": 10.279605263157896,
+      "Miner, nec": 10.197368421052632,
+      "Haul/off road/coal/ore/pit/quarry/rock/rubber tire truck driver, transportation truck driver": 8.881578947368421,
+      "Warehouseman, bagger, palletizer/stacker, store keeper, packager, fabricator, cleaning plant operator": 7.483552631578948,
+      "Laborer, blacksmith, bull gang, parts runner, roustabout, pick-up man, pitman": 5.180921052631579,
+      "Miner, prospector, nec": 4.6875,
+      "Drill operator": 2.4671052631578947
+    }
+  },
+  "compliance": {
+    "recent_years": [
+      2016,
+      2025
+    ],
+    "ss_share_pct_by_year": {
+      "2000": 26.17,
+      "2001": 18.79,
+      "2002": 17.39,
+      "2003": 15.62,
+      "2004": 19.23,
+      "2005": 20.75,
+      "2006": 18.44,
+      "2007": 24.18,
+      "2008": 22.86,
+      "2009": 30.46,
+      "2010": 35.99,
+      "2011": 28.11,
+      "2012": 26.59,
+      "2013": 24.18,
+      "2014": 23.78,
+      "2015": 24.43,
+      "2016": 20.88,
+      "2017": 19.24,
+      "2018": 17.48,
+      "2019": 17.48,
+      "2020": 12.47,
+      "2021": 15.21,
+      "2022": 13.29,
+      "2023": 14.94,
+      "2024": 8.75,
+      "2025": 9.67
+    },
+    "violations_per_100_insp_hours_recent": 10.525714532325154,
+    "top_standards": {
+      "56.14100": {
+        "citations": 908,
+        "penalties": 551156.0,
+        "ss_share_pct": 17.180616740088105,
+        "share_of_all_pct": 4.379914138247069,
+        "description": "Safety defects on equipment: examination, correction and records"
+      },
+      "57.3360": {
+        "citations": 905,
+        "penalties": 1251291.0,
+        "ss_share_pct": 19.88950276243094,
+        "share_of_all_pct": 4.365443056292508,
+        "description": "Ground support use"
+      },
+      "57.3200": {
+        "citations": 827,
+        "penalties": 1240285.0,
+        "ss_share_pct": 30.471584038694076,
+        "share_of_all_pct": 3.989194925473928,
+        "description": "Correction of hazardous ground conditions"
+      },
+      "57.14100": {
+        "citations": 757,
+        "penalties": 565102.0,
+        "ss_share_pct": 10.700132100396301,
+        "share_of_all_pct": 3.6515363465341757,
+        "description": "Safety defects on equipment: examination, correction and records"
+      },
+      "47.41": {
+        "citations": 511,
+        "penalties": 97354.0,
+        "ss_share_pct": 0.9784735812133072,
+        "share_of_all_pct": 2.46490762626019,
+        "description": "Hazard communication: container labels"
+      },
+      "57.11001": {
+        "citations": 507,
+        "penalties": 389268.0,
+        "ss_share_pct": 31.952662721893493,
+        "share_of_all_pct": 2.4456128503207757,
+        "description": "Safe access to working places"
+      },
+      "56.20003": {
+        "citations": 468,
+        "penalties": 241460.0,
+        "ss_share_pct": 23.931623931623932,
+        "share_of_all_pct": 2.257488784911485,
+        "description": "Housekeeping"
+      },
+      "56.11001": {
+        "citations": 422,
+        "penalties": 264826.0,
+        "ss_share_pct": 37.203791469194314,
+        "share_of_all_pct": 2.0355988616082197,
+        "description": "Safe access to working places"
+      },
+      "56.12004": {
+        "citations": 404,
+        "penalties": 123939.0,
+        "ss_share_pct": 5.9405940594059405,
+        "share_of_all_pct": 1.9487723698808548,
+        "description": "Electrical conductors protected and insulated"
+      },
+      "56.12028": {
+        "citations": 393,
+        "penalties": 195453.0,
+        "ss_share_pct": 6.870229007633588,
+        "share_of_all_pct": 1.8957117360474651,
+        "description": "Testing grounding systems"
+      },
+      "57.4201": {
+        "citations": 385,
+        "penalties": 70799.0,
+        "ss_share_pct": 0.7792207792207793,
+        "share_of_all_pct": 1.8571221841686363,
+        "description": "Inspection of fire extinguishers"
+      },
+      "57.20003": {
+        "citations": 383,
+        "penalties": 253026.0,
+        "ss_share_pct": 20.626631853785902,
+        "share_of_all_pct": 1.847474796198929,
+        "description": "Housekeeping"
+      },
+      "50.30": {
+        "citations": 379,
+        "penalties": 48655.0,
+        "ss_share_pct": 0.0,
+        "share_of_all_pct": 1.8281800202595146,
+        "description": "Quarterly employment report (MSHA Form 7000-2)"
+      },
+      "57.4104": {
+        "citations": 373,
+        "penalties": 112999.0,
+        "ss_share_pct": 3.753351206434316,
+        "share_of_all_pct": 1.7992378563503932,
+        "description": "Combustible waste"
+      },
+      "57.12004": {
+        "citations": 358,
+        "penalties": 161246.0,
+        "ss_share_pct": 4.748603351955307,
+        "share_of_all_pct": 1.7268824465775892,
+        "description": "Electrical conductors protected and insulated"
+      }
+    },
+    "activity_mix": {
+      "Regular inspection": {
+        "inspections": 3037,
+        "hours": 146086.5,
+        "share_pct": 49.23800259403372
+      },
+      "Hazard complaint": {
+        "inspections": 1043,
+        "hours": 19212.5,
+        "share_pct": 16.909857328145264
+      },
+      "Compliance follow-up": {
+        "inspections": 659,
+        "hours": 6652.5,
+        "share_pct": 10.684176394293125
+      },
+      "Spot inspection": {
+        "inspections": 609,
+        "hours": 5742.25,
+        "share_pct": 9.873540856031129
+      },
+      "Other": {
+        "inspections": 578,
+        "hours": 7041.75,
+        "share_pct": 9.37094682230869
+      },
+      "Accident investigation": {
+        "inspections": 242,
+        "hours": 12220.25,
+        "share_pct": 3.9234760051880673
+      }
+    }
+  },
+  "rate_model": {
+    "min_hours": 10000,
+    "test_years": [
+      2016,
+      2025
+    ],
+    "panel_rows": 1767,
+    "test_rows": 769,
+    "test_injuries": 1191,
+    "scores": {
+      "Industry rate": {
+        "deviance": 1.444130391648653,
+        "deviance_skill_pct": 0.0,
+        "top20_injury_share_pct": null,
+        "top20_hours_share_pct": null,
+        "top20_rate_ratio": 1.0
+      },
+      "Own recent rate, shrunk": {
+        "deviance": 1.2985978774131044,
+        "deviance_skill_pct": 10.077518974543931,
+        "top20_injury_share_pct": 25.188916876574307,
+        "top20_hours_share_pct": 15.238487862557893,
+        "top20_rate_ratio": 1.6529800793729255
+      },
+      "Poisson regression: size, mix and injury history": {
+        "deviance": 1.2334648463272608,
+        "deviance_skill_pct": 14.587709429817586,
+        "top20_injury_share_pct": 12.594458438287154,
+        "top20_hours_share_pct": 6.448101032855363,
+        "top20_rate_ratio": 1.9532042649632686
+      },
+      "Poisson regression: all inputs": {
+        "deviance": 1.2294522397978878,
+        "deviance_skill_pct": 14.8655656782961,
+        "top20_injury_share_pct": 11.586901763224182,
+        "top20_hours_share_pct": 5.562883448992946,
+        "top20_rate_ratio": 2.0828949355970723
+      },
+      "Boosting: size, mix and injury history": {
+        "deviance": 1.2526702194709503,
+        "deviance_skill_pct": 13.25781752706744,
+        "top20_injury_share_pct": 25.524769101595297,
+        "top20_hours_share_pct": 14.290680685887777,
+        "top20_rate_ratio": 1.7861128985130372
+      },
+      "Boosting: all inputs": {
+        "deviance": 1.2527844464797357,
+        "deviance_skill_pct": 13.24990778363665,
+        "top20_injury_share_pct": 21.074727120067173,
+        "top20_hours_share_pct": 11.567912549368835,
+        "top20_rate_ratio": 1.8218262828427974
+      }
+    },
+    "gain_from_compliance_points": {
+      "gain_points": -0.007909743430791621,
+      "low": -1.9248364878789619,
+      "high": 2.1049808063234607,
+      "draws": 1000
+    },
+    "gain_from_boosting_over_own_rate_points": {
+      "gain_points": 3.1802985525235057,
+      "low": -1.6416528707297764,
+      "high": 7.921660683606624,
+      "draws": 1000
+    },
+    "gain_from_compliance_poisson_points": {
+      "gain_points": 0.2778562484785179,
+      "low": -0.813150748233083,
+      "high": 1.5253008524405636,
+      "draws": 1000
+    },
+    "thirds_last_year": [
+      {
+        "target_year": 2025,
+        "third": "best third",
+        "mines": 23,
+        "predicted_rate": 0.40360734789007074,
+        "observed_rate": 0.8883186729026638
+      },
+      {
+        "target_year": 2025,
+        "third": "middle third",
+        "mines": 23,
+        "predicted_rate": 0.7927061690543964,
+        "observed_rate": 0.6481471949905083
+      },
+      {
+        "target_year": 2025,
+        "third": "worst third",
+        "mines": 23,
+        "predicted_rate": 1.5847159434719085,
+        "observed_rate": 1.2613512336386048
+      }
+    ],
+    "importance": {
+      "Injury history": 29.178573695384944,
+      "Size and workforce mix": 6.813978584247617,
+      "Inspections and violations": 2.0785629525967555
+    },
+    "bands": {
+      "Band 1": {
+        "mine_years": 157,
+        "injuries": 160.0,
+        "predicted_rate": 0.3589990921933695,
+        "observed_rate": 0.49136324679075305,
+        "hours_m": 65.124936
+      },
+      "Band 2": {
+        "mine_years": 154,
+        "injuries": 239.0,
+        "predicted_rate": 0.518379260994483,
+        "observed_rate": 0.587400312452727,
+        "hours_m": 81.37551
+      },
+      "Band 3": {
+        "mine_years": 149,
+        "injuries": 233.0,
+        "predicted_rate": 0.7608767094624279,
+        "observed_rate": 0.8970862983543471,
+        "hours_m": 51.94595000000001
+      },
+      "Band 4": {
+        "mine_years": 154,
+        "injuries": 255.0,
+        "predicted_rate": 1.0665924486088774,
+        "observed_rate": 1.040022322549709,
+        "hours_m": 49.037409
+      },
+      "Band 5": {
+        "mine_years": 155,
+        "injuries": 304.0,
+        "predicted_rate": 1.8032284070795528,
+        "observed_rate": 1.4719617909707734,
+        "hours_m": 41.30542
+      }
+    },
+    "skill_by_year": {
+      "2016": {
+        "mines": 74.0,
+        "injuries": 125.0,
+        "Own recent rate, shrunk": 21.67508154818978,
+        "Boosting: size, mix and injury history": 20.16524821909903,
+        "Boosting: all inputs": 18.716631694240693
+      },
+      "2017": {
+        "mines": 74.0,
+        "injuries": 131.0,
+        "Own recent rate, shrunk": 3.2581475854350117,
+        "Boosting: size, mix and injury history": 13.052168506308758,
+        "Boosting: all inputs": 6.748634696462508
+      },
+      "2018": {
+        "mines": 74.0,
+        "injuries": 103.0,
+        "Own recent rate, shrunk": 38.18600770554218,
+        "Boosting: size, mix and injury history": 45.340715298355924,
+        "Boosting: all inputs": 40.73814304430735
+      },
+      "2019": {
+        "mines": 76.0,
+        "injuries": 131.0,
+        "Own recent rate, shrunk": -2.6021065864474835,
+        "Boosting: size, mix and injury history": -5.057904524432755,
+        "Boosting: all inputs": 0.43485981336703894
+      },
+      "2020": {
+        "mines": 75.0,
+        "injuries": 105.0,
+        "Own recent rate, shrunk": 16.88630104808182,
+        "Boosting: size, mix and injury history": 20.324882348641037,
+        "Boosting: all inputs": 23.316734753703848
+      },
+      "2021": {
+        "mines": 82.0,
+        "injuries": 118.0,
+        "Own recent rate, shrunk": 8.48295054410163,
+        "Boosting: size, mix and injury history": 7.9244538216453275,
+        "Boosting: all inputs": 6.795380923669125
+      },
+      "2022": {
+        "mines": 86.0,
+        "injuries": 111.0,
+        "Own recent rate, shrunk": 9.059434115832065,
+        "Boosting: size, mix and injury history": -1.1515207787979431,
+        "Boosting: all inputs": 1.179457910978221
+      },
+      "2023": {
+        "mines": 84.0,
+        "injuries": 106.0,
+        "Own recent rate, shrunk": 24.33726310372507,
+        "Boosting: size, mix and injury history": 18.2385546135861,
+        "Boosting: all inputs": 23.29732544667432
+      },
+      "2024": {
+        "mines": 75.0,
+        "injuries": 127.0,
+        "Own recent rate, shrunk": -7.4602748511046535,
+        "Boosting: size, mix and injury history": 8.056922567104408,
+        "Boosting: all inputs": 7.507266772717491
+      },
+      "2025": {
+        "mines": 69.0,
+        "injuries": 134.0,
+        "Own recent rate, shrunk": -31.65638429454003,
+        "Boosting: size, mix and injury history": -5.607274745965607,
+        "Boosting: all inputs": -5.689448839243516
+      }
+    }
+  }
+}
